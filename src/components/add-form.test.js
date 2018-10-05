@@ -8,7 +8,7 @@ describe('<AddForm />', () => {
         shallow(<AddForm />);
     });
 
-    it('Renders the add button initially', () => {
+    it('Renders the add button at first', () => {
         const wrapper = shallow(<AddForm />);
         expect(wrapper.hasClass('add-button')).toEqual(true);
     });
